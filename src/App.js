@@ -6,13 +6,15 @@ import {
 import Portfolio from "./components/Portfolio";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume"
+import Resume from "./components/Resume";
+import NavBar from './components/NavBar';
 //import logo from './logo.svg';
 //import './App.css';
 
 function App() {
-    return ( <
-        BrowserRouter >
+    return ( < BrowserRouter >
+        <
+        NavBar / >
         <
         Switch >
         <
@@ -29,8 +31,8 @@ function App() {
         Route component = { Resume }
         path = '/Resume' / >
         <
-        /Switch>  <
-        /BrowserRouter> 
+        /Switch>   <
+        /BrowserRouter>
     )
 }
 
