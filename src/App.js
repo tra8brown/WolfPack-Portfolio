@@ -31,7 +31,7 @@ function App() {
         Route component = { Resume }
         path = '/Resume' / >
         <
-        /Switch>   <
+        /Switch>    <
         /BrowserRouter>
     )
 }

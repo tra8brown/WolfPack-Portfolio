@@ -1,30 +1,34 @@
 import React from "react"
 import { NavLink } from "react-router-dom";
 export default function NavBar() {
-    return ( < header >
+    return ( < header className = "bg-red-600" >
         <
-        div >
+        div className = "container mx-auto flex justify-between" >
         <
-        nav >
+        nav className = "flex" >
         <
         NavLink to = "/"
-        exact >
-        Tracee <
-        /NavLink>  <
-        NavLink to = "/about" >
+        exact activeClassName = "text-white"
+        className = "inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest" >
+        Tracee < /NavLink>    <
+        NavLink to = "/about"
+        className = "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800" >
         About Me <
-        /NavLink>  <
-        NavLink to = "/portfolio" >
+        /NavLink>     <
+        NavLink to = "/portfolio"
+        className = "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800" >
         Portfolio <
-        /NavLink>  <
-        NavLink to = "/contact" >
+        /NavLink>     <
+        NavLink to = "/contact"
+        className = "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800" >
         Contact <
-        /NavLink>  <
-        NavLink to = "/resume" >
+        /NavLink>     <
+        NavLink to = "/resume"
+        className = "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800" >
         Resume <
-        /NavLink>  <
-        /nav>  <
-        /div>  <
-        /header>
+        /NavLink>     <
+        /nav >  <
+        /div>     <
+        /header >
     )
 }
