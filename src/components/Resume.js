@@ -1,5 +1,5 @@
 import React from "react"
 
 export default function Resume() {
-    return <h1 > Resume Page! < /h1>
+    return <h1> Resume Page! </h1>
 }

@@ -12,27 +12,15 @@ import NavBar from './components/NavBar';
 //import './App.css';
 
 function App() {
-    return ( < BrowserRouter >
-        <
-        NavBar / >
-        <
-        Switch >
-        <
-        Route component = { Portfolio }
-        path = '/'
-        exact / >
-        <
-        Route component = { AboutMe }
-        path = '/AboutMe' / >
-        <
-        Route component = { Contact }
-        path = '/Contact' / >
-        <
-        Route component = { Resume }
-        path = '/Resume' / >
-        <
-        /Switch>    <
-        /BrowserRouter>
+    return ( <BrowserRouter >
+        <NavBar / >
+        <Switch >
+        <Route component = { Portfolio }path = '/'exact / >
+        <Route component = { AboutMe }path = '/AboutMe' / >
+        <Route component = { Contact }path = '/Contact' / >
+        <Route component = { Resume }path = '/Resume' / >
+        </Switch>    
+        </BrowserRouter>
     )
 }
 
