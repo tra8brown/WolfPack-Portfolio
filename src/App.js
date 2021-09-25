@@ -1,14 +1,18 @@
 import React from 'react';
-import './App.css';
 import AboutMe from './components/AboutMe';
+import './App.css';
 
 function app () {
     return(
-<AboutMe />
+        <div>
+            <main>
+                <AboutMe></AboutMe>
+            </main>
+        </div>
     );
 }
 
-
+export default app;
 // import {
 //     BrowserRouter,
 //     Route,
@@ -35,4 +39,3 @@ function app () {
 //     )
 // }
 
-export default app;
