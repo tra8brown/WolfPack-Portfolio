@@ -1,13 +1,12 @@
 import React from 'react';
-import AboutMe from './components/AboutMe';
+import HomePage from './components/MainContainer';
 import './App.css';
 
 function app () {
     return(
         <div>
-            <main>
-                <AboutMe></AboutMe>
-            </main>
+                <HomePage></HomePage>
+            
         </div>
     );
 }

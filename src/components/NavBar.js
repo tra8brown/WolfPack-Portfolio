@@ -1,3 +1,40 @@
+import React from 'react';
+// import { NavLink } from 'react-router-dom';
+import Teescho from '../assets/cover/teescho.jpg';
+
+
+export default function Nav(props) {
+  const tabs = ['Home', 'AboutMe', 'Portfolio', 'Contact', 'Resume'];
+  return (
+    <header>
+      <nav className="navbar">
+        <h2>Tracee Brown</h2>
+        <ul className="nav justify-content-end">
+          {tabs.map(tab => (
+            <li key={tab}>
+              <a
+                href={'#' + tab.toLowerCase()}
+                onClick={() => props.handlePageChange(tab)}
+                className={
+                  props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                }
+              >
+              {tab}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <img className="teescho" src={Teescho} alt='B&W trees'></img>
+    </header>
+  );
+}
+
+// export default Nav;
+
+
+
+
 // import React from "react"
 // import { NavLink } from "react-router-dom";
 // export default function NavBar() {
