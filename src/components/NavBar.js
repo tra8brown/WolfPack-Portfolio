@@ -6,7 +6,7 @@ import Teescho from '../assets/cover/teescho.jpg';
 export default function Nav(props) {
   const tabs = ['Home', 'AboutMe', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <header>
+    <div>
       <nav className="navbar">
         <h1 className="letter">Tracee Brown</h1>
         <ul className="nav ">
@@ -26,7 +26,7 @@ export default function Nav(props) {
         </ul>
       </nav>
       <img className="teescho" src={Teescho} alt='B&W trees'></img>
-    </header>
+    </div>
   );
 }
 
