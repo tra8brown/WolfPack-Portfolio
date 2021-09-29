@@ -8,7 +8,7 @@ export default function Nav(props) {
   return (
     <header>
       <nav className="navbar">
-        <h1>Tracee Brown</h1>
+        <h1 className="letter">Tracee Brown</h1>
         <ul className="nav ">
           {tabs.map(tab => (
             <li key={tab}>

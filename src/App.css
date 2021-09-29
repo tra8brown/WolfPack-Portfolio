@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,14 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+/* .navbar {
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+} */
 
 .contactPage {
   font-size: x-large;
@@ -50,3 +57,26 @@
   align-items: center;
 }
 
+header .navbar h1 {
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFDE00;
+  color: #333;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.roobis{
+  margin: 35px;
+}
+
+.portfolio {
+  
+}
+
+h1 {
+  
+}
