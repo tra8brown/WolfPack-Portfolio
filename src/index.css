@@ -4,10 +4,10 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #ffe554;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #fafafa;
+  --light: #ffffff;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
@@ -52,7 +52,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -140,10 +140,10 @@ input {
   transition: box-shadow 0.2s;
 }
 
-input:focus {
+/* input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
+  box-shadow: 0 0 .50rem rgba(121, 38, 38, 0.5);
+} */
 
 li {
   list-style: none;

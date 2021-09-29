@@ -13,7 +13,7 @@ export default function Resume() {
             </ul>
         <p>here's the link to my downloadable resume</p>
         <div>
-            <a href={ResumeLink} target='_blank'>Resume</a>
+            <a href={ResumeLink} target='_blank' rel="noreferrer">Resume</a>
         </div>
         </main>
 }
