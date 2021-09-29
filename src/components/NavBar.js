@@ -4,7 +4,7 @@ import Teescho from '../assets/cover/teescho.jpg';
 
 
 export default function Nav(props) {
-  const tabs = ['Home', 'AboutMe', 'Portfolio', 'Contact', 'Resume'];
+  const tabs = ['AboutMe', 'Portfolio', 'Contact', 'Resume', 'Home'];
   return (
     <div>
       <nav className="navbar">
