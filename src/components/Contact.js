@@ -6,18 +6,18 @@ export default function Contact() {
         <>
     <h1 className="contacth1"> Contact Page! </h1>
     <div className="contactPage" >
-    <label for="exampleFormControlInput1" class="form-label mt-5">Name</label>
+    <label for="exampleFormControlInput1" class="form-label mt-5">Name</label><br></br>
 <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name" />
 </div>
    <div className="contactPage" >
-    <label for="exampleFormControlInput1" class="form-label mt-5">Email address</label>
+    <label for="exampleFormControlInput1" class="form-label mt-5">Email address</label><br></br>
 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your e-mail" />
 </div>
 <div className="contactPage">
-<label for="exampleFormControlTextarea1" class="form-label">Message</label><br></br>
+<label for="exampleFormControlTextarea1" class="form-label mt-5">Message</label><br></br>
 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your message"></textarea>
 </div>
-<button type="button" className="contactPage" class="btn btn-outline-warning d-grid mx-auto mb-5">Sumbit</button>
+<button type="button" className="contactPage" class="btn btn-outline-warning d-grid mx-auto mb-5">Submit</button>
 </>
     )
 }

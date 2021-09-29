@@ -67,19 +67,15 @@ header a {
 }
 
 button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+  margin: 0 515px;
+  background-color: yellow;
 }
 
 button:hover {
-  opacity: .8;
+  background-color: black;
+  color: yellow;
+  opacity: .80;
 }
 
 button[disabled] {
@@ -87,6 +83,18 @@ button[disabled] {
   opacity: .8;
 }
 
+form {
+  width: 100%;
+}
+
+input {
+  font-size: 2rem;
+  padding: 0.50rem;
+  border: 1px solid yellow;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
 img {
   max-width: 100%;
 }
@@ -95,26 +103,9 @@ span[role="img"] {
   cursor: default;
 }
 
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-/* input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .50rem rgba(121, 38, 38, 0.5);
-} */
 
 li {
-  list-style: none;
+  list-style:inside;
 }
 
 nav a:hover {
@@ -123,8 +114,9 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  list-style: none;
 }
-
+ /* stopped here */
 textarea {
 	width: 600px;
 	height: 120px;
