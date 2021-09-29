@@ -1,12 +1,13 @@
 import React from 'react';
 import HomePage from './components/MainContainer';
 import './App.css';
+import Footer from './components/Footer';
 
 function app () {
     return(
         <div>
                 <HomePage></HomePage>
-            
+            <Footer></Footer>
         </div>
     );
 }

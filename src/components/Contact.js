@@ -1,10 +1,10 @@
-// import React from "react"
+import React from "react"
 
-// export default function Contact() {
-//     return <h1> Contact Page! </h1>
-// }
+export default function Contact() {
+    return <h1> Contact Page! </h1>
+}
 
-// import { validateEmail } from '../../utils/helpers';
+//import { validateEmail } from '../../utils/helpers';
 
 // function ContactForm() {
 //   const [formState, setFormState] = useState({ name: '', email: '', message: '' });

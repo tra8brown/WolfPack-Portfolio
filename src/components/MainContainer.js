@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import Nav from './NavBar';
-// import Home from './Home';
+import HomeTab from './Home';
 import AboutMe from './AboutMe';
 import Resume from './Resume';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Footer from './Footer';
+
 
 
 function MainPage() {
   const [currentPage, handlePageChange] = useState('Home');
  
-
   const renderPage = () => {
     switch (currentPage) {
+      case 'HomeTab':
+        return <HomeTab />;
       case 'AboutMe':
         return <AboutMe />;
       case 'Portfolio':
@@ -21,11 +24,13 @@ function MainPage() {
         return <Contact />;
       case 'Resume':
         return <Resume />;
+      case 'Footer':
+        return <Footer />;
       default:
-        // return <Home />;
-        return <AboutMe />;
+        return <HomeTab />;
     }
   };
+  
 
   return (
     <div>

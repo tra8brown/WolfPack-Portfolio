@@ -9,7 +9,7 @@ export default function Nav(props) {
     <header>
       <nav className="navbar">
         <h2>Tracee Brown</h2>
-        <ul className="nav justify-content-end">
+        <ul className="nav ">
           {tabs.map(tab => (
             <li key={tab}>
               <a
