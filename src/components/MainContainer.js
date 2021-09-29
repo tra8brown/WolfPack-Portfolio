@@ -27,7 +27,7 @@ function MainPage() {
       case 'Footer':
         return <Footer />;
       default:
-        return <HomeTab />;
+        return <AboutMe />;
     }
   };
   

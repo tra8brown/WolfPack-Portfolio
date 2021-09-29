@@ -3,8 +3,8 @@ import ResumeLink from "../assets/small/Updated Resume.pdf";
 
 export default function Resume() {
     return <main>
-        <h1> Welcome to my Resume Page! </h1>
-        <p>Proficiency Skills:</p>
+        <h1 className="resume"> Welcome to my Resume Page! </h1>
+        <p className="resume">Proficiency Skills:</p>
         <ul>
             <li>strong creative ability💪 </li>
             <li>attention to detail💪 </li>
@@ -13,7 +13,7 @@ export default function Resume() {
             </ul>
         <p>here's the link to my downloadable resume</p>
         <div>
-            <a href={ResumeLink} target='_blank' rel="noreferrer">Resume</a>
+            <a href={ResumeLink} target='_blank' rel="noreferrer">👉Resume</a>
         </div>
         </main>
 }

@@ -2,11 +2,17 @@ import React from 'react';
 import HomePage from './components/MainContainer';
 import './App.css';
 import Footer from './components/Footer';
+import Contact from './components/Contact'
 
 function app () {
     return(
         <div>
                 <HomePage></HomePage>
+                {/* <main>
+  <Contact></Contact>
+  <Gallery currentCategory={currentCategory}></Gallery>
+  <About></About>
+</main> */}
             <Footer></Footer>
         </div>
     );
@@ -36,6 +42,7 @@ export default app;
 //         <Route component = { Resume }path = '/Resume' / >
 //         </Switch>    
 //         </BrowserRouter>
-//     )
+//     );
 // }
+
 
