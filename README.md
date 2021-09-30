@@ -2,7 +2,7 @@
 
 - created this portfolio using React.
 
-![Portfolio](Portfolio.png)
+![Portfolio](src/assets/projects/Portfolio.png)
 
 Live URL: https://fast-headland-66673.herokuapp.com/
 Github URL: https://github.com/tra8brown/wolfpack-portfolio
