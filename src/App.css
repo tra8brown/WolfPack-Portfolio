@@ -4,7 +4,8 @@
   }
 }
 
-/* .navbar {
+/* div .navbar {
+  font-size: larger;
   justify-content: flex-end;
   align-items: flex-start;
   align-content: flex-end;
@@ -12,9 +13,6 @@
 
 .contactPage {
   font-size: x-large;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .contacth1 {
@@ -24,17 +22,25 @@
   color: lightblue; 
 }
 
-header .navbar h1 {
+/* my name */
+div nav h1 {
   padding: 10px;
   margin: 10px;
-  background-color: #FFDE00;
-  color: #333;
+  background-color: #242038;
+  color: #0496ff;
   display: inline-block;
   font-family: monospace;
   font-size: 32px;
   text-align: center;
 }
 
+.letter{
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffde00;
+  color:#0496ff;
+  display: inline-block;
+}
 
 .roobis{
   margin: 35px;
@@ -45,6 +51,40 @@ header .navbar h1 {
   justify-content: center;
   align-items: center;
   color: lightblue;
+}
+
+.portfolio1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio2 {
+  padding: 10px;
+  margin: 10px;
+  background-color: #242038;
+  color: #0496ff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
+}
+
+a portfolio2 {
+  padding: 10px;
+  margin: 10px;
+  font-size: 10px;
+}
+
+main ul {
+  padding: 10px;
+  margin: 10px;
+  background-color: #242038;
+  color: #0496ff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
 }
 
 .footerlink {
@@ -65,4 +105,9 @@ header .navbar h1 {
   justify-content: center;
   align-items: center;
   color: lightblue;
+}
+
+.Foggy {
+  height: 250px;
+  width: 100%;
 }

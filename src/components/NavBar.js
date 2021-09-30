@@ -1,13 +1,14 @@
 import React from 'react';
 // import { NavLink } from 'react-router-dom';
-import Teescho from '../assets/cover/teescho.jpg';
+import Foggy from '../../src/assets/cover/foggyNYC.jpg';
+
 
 
 export default function Nav(props) {
   const tabs = ['AboutMe', 'Portfolio', 'Contact', 'Resume', 'Home'];
   return (
-    <div>
-      <nav className="navbar">
+    <div className="navbar">
+      <nav>
         <h1 className="letter">Tracee Brown</h1>
         <ul className="nav ">
           {tabs.map(tab => (
@@ -25,7 +26,7 @@ export default function Nav(props) {
           ))}
         </ul>
       </nav>
-      <img className="teescho" src={Teescho} alt='B&W trees'></img>
+      <img className="Foggy" src={Foggy} alt='Foggy new york city'></img>
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Resume() {
     return <main>
         <h1 className="resume"> Welcome to my Resume Page! </h1>
         <p className="resume">Proficiency Skills:</p>
-        <ul>
+        <ul className="proficiency">
             <li>strong creative ability💪 </li>
             <li>attention to detail💪 </li>
             <li>excellent problem solving skills💪 </li>

@@ -2,7 +2,7 @@ import React from 'react';
 import HomePage from './components/MainContainer';
 import './App.css';
 import Footer from './components/Footer';
-import Contact from './components/Contact'
+// import Contact from './components/Contact';
 
 function app () {
     return(

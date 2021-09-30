@@ -72,7 +72,7 @@ class Contact extends React.Component {
                     <label htmlFor="exampleFormControlTextarea1" className="form-label mt-5">Message</label><br></br>
                     <textarea className="form-control" value={this.state.messsage} onChange={this.handleMsgChange} id="exampleFormControlTextarea1" rows="5" placeholder="Your message"></textarea>
                 </div>
-                <button onClick={this.handleSubmit} type="button" className="contactPage" className="btn btn-outline-warning d-grid mx-auto mb-5">Submit</button>
+                <button onClick={this.handleSubmit} type="button" className="contactPage btn btn-outline-warning d-grid mx-auto mb-5">Submit</button>
             </form>
         )
     };
